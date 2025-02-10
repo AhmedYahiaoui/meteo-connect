@@ -29,6 +29,7 @@ dependencies:
   dropdown_search: ^6.0.2
   flutter_local_notifications: ^8.2.0
   permission_handler: ^11.3.1
+  flutter_dotenv: ^5.2.1
   
   # fl_chart: ^0.70.2
 

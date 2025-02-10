@@ -9,8 +9,8 @@ class ApiService {
   Future<WeatherModel> getWeather(CityModel city) async {
     const String units = 'metric';
     const String lang = 'en';
-    const String api = AppStrings.apiKey;
-    const String url = AppStrings.baseWeatherUrl;
+    String api = AppStrings.apiKey;
+    String url = AppStrings.baseWeatherUrl;
 
     double lat = city.latitude;
     double lon = city.longitude;

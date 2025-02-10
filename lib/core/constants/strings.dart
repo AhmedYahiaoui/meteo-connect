@@ -1,11 +1,12 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class AppStrings {
   // API
 
   // static const String baseWeatherUrl = 'https://api.openweathermap.org/data/2.5'; // 2.5 version
-  static const String baseWeatherUrl =
-      'https://api.openweathermap.org/data/3.0/onecall?';
-  static const String apiKey = 'a3838dc0ac4bbc9159c412714c98e6e8';
-  static const String baseGeoUrl = 'http://api.openweathermap.org/geo/1.0';
+  static String get baseWeatherUrl => dotenv.env['BASE_WEATHER_URL'] ?? '';
+  static String get apiKey => dotenv.env['API_KEY'] ?? '';
+  static String get baseGeoUrl => dotenv.env['BASE_GEO_URL'] ?? '';
 
   // App
   static const String appName = 'MétéoConnect';
