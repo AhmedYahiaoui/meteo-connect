@@ -1,0 +1,16 @@
+{
+  "debug.openDebug": "openOnDebugBreak",  "[dart]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+      },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "compile-hero.disable-compile-files-on-did-save-code": false
+}
