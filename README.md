@@ -91,11 +91,11 @@ The application uses Riverpod for state management, offering several advantages:
    - Feature-based organization
    - Clear separation of concerns
 
-# Theme Management
+## Theme Management
 
 The application supports both light and dark themes through the `AppTheme` class, which defines the theme data. The `ThemeService` class manages the current theme state and allows users to toggle between light and dark modes.
 
-# Constants
+## Constants
 
 The application defines several constants used throughout the codebase, including:
 
@@ -110,4 +110,17 @@ The application defines several constants used throughout the codebase, includin
 
 ```bash
 git clone https://github.com/yourusername/meteo_connect.git
+```
+
+1. Run the project
+   I have already create a folder .vscode, contains a json file helps you launch the app directly or :
+
+```bash
+flutter devices
+```
+
+get the id of the device wanted
+
+```bash
+flutter run -d [the device id]
 ```
